@@ -9,6 +9,10 @@ body {
 }
 
 .header {
+    /*adding display,justify and align-item here*/
+    display: flex;
+    justify-content:space-evenly;
+    
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -70,6 +74,8 @@ p {
 }
 
 .content {
+    /*adding display:flex and flex-wrap:wrap properties and deleted*/
+    
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -87,6 +93,7 @@ p {
 }
 
 .benefit-lead {
+
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -135,6 +142,8 @@ p {
 }
 
 .search-engine-optimization {
+   
+    
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -144,6 +153,8 @@ p {
 }
 
 .online-reputation-management {
+    
+   
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -153,6 +164,7 @@ p {
 }
 
 .social-media-marketing {
+   
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
